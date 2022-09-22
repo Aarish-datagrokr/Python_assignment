@@ -1,0 +1,975 @@
+[
+    {
+        "statement_id": 1,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "DW_DSS.LU_DAY_MERGE",
+                    "DW_DSS.LU_PROMO_DAY"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 2,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "DW_DSS.LU_DAY_MERGE",
+                    "DW_DSS.LU_PROMO_DAY"
+                ]
+            }
+        ],
+        "statement_type": "update"
+    },
+    {
+        "statement_id": 3,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "",
+                    "DW_DSS.LU_DAY_MERGE",
+                    "DW_DSS.LU_PROMO_DAY"
+                ]
+            }
+        ],
+        "statement_type": "update"
+    },
+    {
+        "statement_id": 4,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "DW_DSS.LU_DAY_MERGE",
+                    "(",
+                    "VT_PDA_LU_TIME",
+                    "DW_DSS.LU_PROMO_DAY"
+                ]
+            }
+        ],
+        "statement_type": "update"
+    },
+    {
+        "statement_id": 5,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "update"
+    },
+    {
+        "statement_id": 6,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "TEMP_MARKETING.PDA_LU_TIME"
+                ]
+            }
+        ],
+        "statement_type": "delete"
+    },
+    {
+        "statement_id": 7,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "VT_PDA_LU_TIME"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 8,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "create"
+    },
+    {
+        "statement_id": 9,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM",
+                    "JOIN"
+                ],
+                "name": [
+                    "TEMP_MARKETING.J4U_ONLINE_REGISTERED_HHS",
+                    "TEMP_MARKETING.PDA_LU_TIME",
+                    "TEMP_CMS.JAA_HH_DIV_PRIMARY_STORE"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 10,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "TEMP_MARKETING.PDA_LU_TIME",
+                    "(",
+                    "TEMP_CMS.AA_J4U_HH_ATTRIBUTES"
+                ]
+            }
+        ],
+        "statement_type": "update"
+    },
+    {
+        "statement_id": 11,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "update"
+    },
+    {
+        "statement_id": 12,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "create"
+    },
+    {
+        "statement_id": 13,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM",
+                    "JOIN"
+                ],
+                "name": [
+                    "",
+                    "DW_DSS.LU_UPC",
+                    "DW_DSS.LU_RESPONSIBILITY",
+                    "TEMP_CMS.JAA_CONSOL_OFF_BNK",
+                    "TEMP_MARKETING.PDA_LU_TIME",
+                    "TEMP_MARKETING.SES_UPC_HIER"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 14,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "VT_PDA_LU_OFFER",
+                    "("
+                ]
+            }
+        ],
+        "statement_type": "update"
+    },
+    {
+        "statement_id": 15,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "update"
+    },
+    {
+        "statement_id": 16,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "TEMP_MARKETING.PDA_LU_OFFER"
+                ]
+            }
+        ],
+        "statement_type": "delete"
+    },
+    {
+        "statement_id": 17,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "VT_PDA_LU_OFFER"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 18,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "create"
+    },
+    {
+        "statement_id": 19,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM",
+                    "JOIN"
+                ],
+                "name": [
+                    "DW_DSS.LU_UPC",
+                    "DW_DSS.COPIENT_ITEM_PROMO_PRC",
+                    "TEMP_CMS.JAA_CONSOL_OFF_BNK",
+                    "TEMP_MARKETING.PDA_LU_TIME",
+                    "DW_DSS.LU_OFFER"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 20,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM",
+                    "JOIN"
+                ],
+                "name": [
+                    "",
+                    "DW_DSS.LU_UPC",
+                    "(",
+                    "DW_DSS.LU_RESPONSIBILITY",
+                    "VT_PDA_LU_OFFER"
+                ]
+            }
+        ],
+        "statement_type": "update"
+    },
+    {
+        "statement_id": 21,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "update"
+    },
+    {
+        "statement_id": 22,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "TEMP_MARKETING.PDA_LU_OFFER_UPCS"
+                ]
+            }
+        ],
+        "statement_type": "delete"
+    },
+    {
+        "statement_id": 23,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "VT_PDA_LU_OFFER_UPCS"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 24,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "create"
+    },
+    {
+        "statement_id": 25,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "use"
+    },
+    {
+        "statement_id": 26,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM",
+                    "JOIN"
+                ],
+                "name": [
+                    "TEMP_MARKETING.PDA_LU_OFFER_UPCS",
+                    "DW_DSS.TXN_FACTS",
+                    "DW_DSS.LU_STORE_FINANCE_OM"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 27,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "TEMP_MARKETING.PDA_OFFER_STORE_SCAN"
+                ]
+            }
+        ],
+        "statement_type": "delete"
+    },
+    {
+        "statement_id": 28,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "VT_PDA_OFFER_STORE_SCAN"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 29,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "use"
+    },
+    {
+        "statement_id": 30,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "create"
+    },
+    {
+        "statement_id": 31,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM",
+                    "JOIN"
+                ],
+                "name": [
+                    "",
+                    "DW_DSS.LU_CARD_ACCOUNT",
+                    "TEMP_MARKETING.PDA_LU_HH",
+                    "DW_DSS.LU_DAY_MERGE",
+                    "DW_DSS.TXN_FACTS",
+                    "TEMP_MARKETING.PDA_LU_OFFER_UPCS",
+                    "DW_DSS.LU_STORE_FINANCE_OM"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 32,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM",
+                    "JOIN"
+                ],
+                "name": [
+                    "",
+                    "DW_DSS.LU_CARD_ACCOUNT",
+                    "TEMP_MARKETING.PDA_LU_HH",
+                    "DW_DSS.LU_DAY_MERGE",
+                    "DW_DSS.TXN_FACTS",
+                    "TEMP_MARKETING.PDA_LU_OFFER_UPCS",
+                    "DW_DSS.LU_STORE_FINANCE_OM"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 33,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM",
+                    "JOIN"
+                ],
+                "name": [
+                    "",
+                    "DW_DSS.LU_CARD_ACCOUNT",
+                    "TEMP_MARKETING.PDA_LU_HH",
+                    "DW_DSS.LU_DAY_MERGE",
+                    "DW_DSS.TXN_FACTS",
+                    "TEMP_MARKETING.PDA_LU_OFFER_UPCS",
+                    "DW_DSS.LU_STORE_FINANCE_OM"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 34,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM",
+                    "JOIN"
+                ],
+                "name": [
+                    "",
+                    "DW_DSS.LU_CARD_ACCOUNT",
+                    "TEMP_MARKETING.PDA_LU_HH",
+                    "DW_DSS.LU_DAY_MERGE",
+                    "DW_DSS.TXN_FACTS",
+                    "TEMP_MARKETING.PDA_LU_OFFER_UPCS",
+                    "DW_DSS.LU_STORE_FINANCE_OM"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 35,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "TEMP_MARKETING.PDA_HH_OFFER_SALES"
+                ]
+            }
+        ],
+        "statement_type": "delete"
+    },
+    {
+        "statement_id": 36,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "VT_PDA_HH_OFFER_SALES"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 37,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "TEMP_MARKETING.PDA_HH_OFFER_SALES"
+                ]
+            }
+        ],
+        "statement_type": "select"
+    },
+    {
+        "statement_id": 38,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "TEMP_MARKETING.PDA_HH_OFFER_SALES"
+                ]
+            }
+        ],
+        "statement_type": "select"
+    },
+    {
+        "statement_id": 39,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "create"
+    },
+    {
+        "statement_id": 40,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM",
+                    "JOIN"
+                ],
+                "name": [
+                    "",
+                    "DW_DSS.LU_DAY_MERGE",
+                    "TEMP_MARKETING.FISCAL_WK_HH_CATEGORY_SPEND"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 41,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM",
+                    "JOIN"
+                ],
+                "name": [
+                    "",
+                    "DW_DSS.LU_DAY_MERGE",
+                    "TEMP_MARKETING.FISCAL_WK_HH_CATEGORY_SPEND"
+                ]
+            }
+        ],
+        "statement_type": "create"
+    },
+    {
+        "statement_id": 42,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "create"
+    },
+    {
+        "statement_id": 43,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM",
+                    "JOIN"
+                ],
+                "name": [
+                    "",
+                    "VT_MULT_CAT_PURCH",
+                    "VT_PDA_HH_CAT_WEEK"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 44,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "create"
+    },
+    {
+        "statement_id": 45,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "VT_PDA_HH_CAT_WEEK"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 46,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "(",
+                    "VT_PDA_MULT_PURCH_CYCLE"
+                ]
+            }
+        ],
+        "statement_type": "update"
+    },
+    {
+        "statement_id": 47,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM",
+                    "JOIN"
+                ],
+                "name": [
+                    "",
+                    "VT_PDA_PURCH_CYCLE",
+                    "VT_PDA_MULT_PURCH_CYCLE",
+                    "(",
+                    "DW_DSS.FACTS_SEGMENT_WEEK",
+                    "DW_DSS.FACTS_SEGMENT_WEEK)"
+                ]
+            }
+        ],
+        "statement_type": "update"
+    },
+    {
+        "statement_id": 48,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "update"
+    },
+    {
+        "statement_id": 49,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "update"
+    },
+    {
+        "statement_id": 50,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "TEMP_MARKETING.PDA_PURCH_CYCLE"
+                ]
+            }
+        ],
+        "statement_type": "delete"
+    },
+    {
+        "statement_id": 51,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "VT_PDA_PURCH_CYCLE"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 52,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "DW_DSS.LU_DAY_MERGE",
+                    "TEMP_MARKETING.FISCAL_WK_HH_CATEGORY_SPEND"
+                ]
+            }
+        ],
+        "statement_type": "create"
+    },
+    {
+        "statement_id": 53,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "create"
+    },
+    {
+        "statement_id": 54,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM",
+                    "JOIN"
+                ],
+                "name": [
+                    "",
+                    "DW_DSS.LU_DAY_MERGE",
+                    "VT_CAT_DIV_WK_SALES"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 55,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "TEMP_MARKETING.PDA_SEASONALITY"
+                ]
+            }
+        ],
+        "statement_type": "delete"
+    },
+    {
+        "statement_id": 56,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "VT_PDA_SEASONALITY"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 57,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "use"
+    },
+    {
+        "statement_id": 58,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "create"
+    },
+    {
+        "statement_id": 59,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM",
+                    "JOIN"
+                ],
+                "name": [
+                    "",
+                    "TEMP_MARKETING.WKLY_HH_SEG",
+                    "DW_DSS.LU_UPC",
+                    "DW_DSS.LU_CARD_ACCOUNT",
+                    "DW_DSS.LU_DAY_MERGE",
+                    "DW_DSS.TXN_FACTS",
+                    "DW_DSS.LU_STORE_FINANCE_OM"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 60,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "TEMP_MARKETING.PDA_ATTRIBUTE_BUYERS"
+                ]
+            }
+        ],
+        "statement_type": "delete"
+    },
+    {
+        "statement_id": 61,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "TEMP_CMS.VT_PDA_ATTRIBUTE_BUYERS"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 62,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM",
+                    "JOIN"
+                ],
+                "name": [
+                    "",
+                    "DW_DSS.LU_UPC",
+                    "DW_DSS.LU_CARD_ACCOUNT",
+                    "DW_DSS.LU_DAY_MERGE",
+                    "DW_DSS.TXN_FACTS",
+                    "DW_DSS.LU_STORE_FINANCE_OM"
+                ]
+            }
+        ],
+        "statement_type": "create"
+    },
+    {
+        "statement_id": 63,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM",
+                    "JOIN"
+                ],
+                "name": [
+                    "",
+                    "DW_DSS.LU_UPC",
+                    "DW_DSS.LU_CARD_ACCOUNT",
+                    "DW_DSS.LU_DAY_MERGE",
+                    "DW_DSS.TXN_FACTS",
+                    "DW_DSS.LU_STORE_FINANCE_OM"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 64,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM",
+                    "JOIN"
+                ],
+                "name": [
+                    "",
+                    "DW_DSS.LU_UPC",
+                    "DW_DSS.LU_CARD_ACCOUNT",
+                    "DW_DSS.LU_DAY_MERGE",
+                    "DW_DSS.TXN_FACTS",
+                    "DW_DSS.LU_STORE_FINANCE_OM"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 65,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": "update"
+    },
+    {
+        "statement_id": 66,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "TEMP_MKTG.PDA_HH_UPC_WKLY_SALES"
+                ]
+            }
+        ],
+        "statement_type": "delete"
+    },
+    {
+        "statement_id": 67,
+        "target_table_name": [
+            {
+                "type": [
+                    "FROM"
+                ],
+                "name": [
+                    "VT_PDA_HH_UPC_WKLY_SALES"
+                ]
+            }
+        ],
+        "statement_type": "insert"
+    },
+    {
+        "statement_id": 68,
+        "target_table_name": [
+            {
+                "type": [],
+                "name": []
+            }
+        ],
+        "statement_type": ""
+    }
+]
